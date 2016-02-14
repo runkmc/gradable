@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B751C71491B006E4345 /* AppDelegate.swift */; };
+		0A727B781C71491B006E4345 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B771C71491B006E4345 /* ViewController.swift */; };
+		0A727B7B1C71491B006E4345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B791C71491B006E4345 /* Main.storyboard */; };
+		0A727B7D1C71491B006E4345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7C1C71491B006E4345 /* Assets.xcassets */; };
+		0A727B801C71491B006E4345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */; };
+		0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B8A1C71491B006E4345 /* GradableTests.swift */; };
+		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A727B871C71491B006E4345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A727B6A1C71491B006E4345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A727B711C71491B006E4345;
+			remoteInfo = Gradable;
+		};
+		0A727B921C71491B006E4345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A727B6A1C71491B006E4345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A727B711C71491B006E4345;
+			remoteInfo = Gradable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A727B721C71491B006E4345 /* Gradable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A727B751C71491B006E4345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A727B771C71491B006E4345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A727B7A1C71491B006E4345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A727B7C1C71491B006E4345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A727B7F1C71491B006E4345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A727B811C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A727B861C71491B006E4345 /* GradableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A727B8A1C71491B006E4345 /* GradableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableTests.swift; sourceTree = "<group>"; };
+		0A727B8C1C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A727B911C71491B006E4345 /* GradableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A727B951C71491B006E4345 /* GradableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableUITests.swift; sourceTree = "<group>"; };
+		0A727B971C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A727B6F1C71491B006E4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B831C71491B006E4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B8E1C71491B006E4345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A727B691C71491B006E4345 = {
+			isa = PBXGroup;
+			children = (
+				0A727B741C71491B006E4345 /* Gradable */,
+				0A727B891C71491B006E4345 /* GradableTests */,
+				0A727B941C71491B006E4345 /* GradableUITests */,
+				0A727B731C71491B006E4345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A727B731C71491B006E4345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A727B721C71491B006E4345 /* Gradable.app */,
+				0A727B861C71491B006E4345 /* GradableTests.xctest */,
+				0A727B911C71491B006E4345 /* GradableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A727B741C71491B006E4345 /* Gradable */ = {
+			isa = PBXGroup;
+			children = (
+				0A727B751C71491B006E4345 /* AppDelegate.swift */,
+				0A727B771C71491B006E4345 /* ViewController.swift */,
+				0A727B791C71491B006E4345 /* Main.storyboard */,
+				0A727B7C1C71491B006E4345 /* Assets.xcassets */,
+				0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */,
+				0A727B811C71491B006E4345 /* Info.plist */,
+			);
+			path = Gradable;
+			sourceTree = "<group>";
+		};
+		0A727B891C71491B006E4345 /* GradableTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A727B8A1C71491B006E4345 /* GradableTests.swift */,
+				0A727B8C1C71491B006E4345 /* Info.plist */,
+			);
+			path = GradableTests;
+			sourceTree = "<group>";
+		};
+		0A727B941C71491B006E4345 /* GradableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A727B951C71491B006E4345 /* GradableUITests.swift */,
+				0A727B971C71491B006E4345 /* Info.plist */,
+			);
+			path = GradableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A727B711C71491B006E4345 /* Gradable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A727B9A1C71491B006E4345 /* Build configuration list for PBXNativeTarget "Gradable" */;
+			buildPhases = (
+				0A727B6E1C71491B006E4345 /* Sources */,
+				0A727B6F1C71491B006E4345 /* Frameworks */,
+				0A727B701C71491B006E4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gradable;
+			productName = Gradable;
+			productReference = 0A727B721C71491B006E4345 /* Gradable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A727B851C71491B006E4345 /* GradableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A727B9D1C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableTests" */;
+			buildPhases = (
+				0A727B821C71491B006E4345 /* Sources */,
+				0A727B831C71491B006E4345 /* Frameworks */,
+				0A727B841C71491B006E4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A727B881C71491B006E4345 /* PBXTargetDependency */,
+			);
+			name = GradableTests;
+			productName = GradableTests;
+			productReference = 0A727B861C71491B006E4345 /* GradableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A727B901C71491B006E4345 /* GradableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A727BA01C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableUITests" */;
+			buildPhases = (
+				0A727B8D1C71491B006E4345 /* Sources */,
+				0A727B8E1C71491B006E4345 /* Frameworks */,
+				0A727B8F1C71491B006E4345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A727B931C71491B006E4345 /* PBXTargetDependency */,
+			);
+			name = GradableUITests;
+			productName = GradableUITests;
+			productReference = 0A727B911C71491B006E4345 /* GradableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A727B6A1C71491B006E4345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kevin McGladdery";
+				TargetAttributes = {
+					0A727B711C71491B006E4345 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0A727B851C71491B006E4345 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A727B711C71491B006E4345;
+					};
+					0A727B901C71491B006E4345 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0A727B711C71491B006E4345;
+					};
+				};
+			};
+			buildConfigurationList = 0A727B6D1C71491B006E4345 /* Build configuration list for PBXProject "Gradable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A727B691C71491B006E4345;
+			productRefGroup = 0A727B731C71491B006E4345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A727B711C71491B006E4345 /* Gradable */,
+				0A727B851C71491B006E4345 /* GradableTests */,
+				0A727B901C71491B006E4345 /* GradableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A727B701C71491B006E4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A727B801C71491B006E4345 /* LaunchScreen.storyboard in Resources */,
+				0A727B7D1C71491B006E4345 /* Assets.xcassets in Resources */,
+				0A727B7B1C71491B006E4345 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B841C71491B006E4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B8F1C71491B006E4345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A727B6E1C71491B006E4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A727B781C71491B006E4345 /* ViewController.swift in Sources */,
+				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B821C71491B006E4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A727B8D1C71491B006E4345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A727B881C71491B006E4345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A727B711C71491B006E4345 /* Gradable */;
+			targetProxy = 0A727B871C71491B006E4345 /* PBXContainerItemProxy */;
+		};
+		0A727B931C71491B006E4345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A727B711C71491B006E4345 /* Gradable */;
+			targetProxy = 0A727B921C71491B006E4345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A727B791C71491B006E4345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A727B7A1C71491B006E4345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A727B7F1C71491B006E4345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A727B981C71491B006E4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0A727B991C71491B006E4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A727B9B1C71491B006E4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.Gradable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A727B9C1C71491B006E4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gradable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.Gradable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A727B9E1C71491B006E4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.GradableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradable.app/Gradable";
+			};
+			name = Debug;
+		};
+		0A727B9F1C71491B006E4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.GradableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gradable.app/Gradable";
+			};
+			name = Release;
+		};
+		0A727BA11C71491B006E4345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.GradableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gradable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0A727BA21C71491B006E4345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.mcgladdery.grade.GradableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gradable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A727B6D1C71491B006E4345 /* Build configuration list for PBXProject "Gradable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A727B981C71491B006E4345 /* Debug */,
+				0A727B991C71491B006E4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A727B9A1C71491B006E4345 /* Build configuration list for PBXNativeTarget "Gradable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A727B9B1C71491B006E4345 /* Debug */,
+				0A727B9C1C71491B006E4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A727B9D1C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A727B9E1C71491B006E4345 /* Debug */,
+				0A727B9F1C71491B006E4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A727BA01C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A727BA11C71491B006E4345 /* Debug */,
+				0A727BA21C71491B006E4345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A727B6A1C71491B006E4345 /* Project object */;
+}
