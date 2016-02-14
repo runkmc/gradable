@@ -14,6 +14,7 @@
 		0A727B801C71491B006E4345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */; };
 		0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B8A1C71491B006E4345 /* GradableTests.swift */; };
 		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
+		0A727BA51C714973006E4345 /* gradable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A727BA31C714973006E4345 /* gradable.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A727B911C71491B006E4345 /* GradableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B951C71491B006E4345 /* GradableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableUITests.swift; sourceTree = "<group>"; };
 		0A727B971C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A727BA41C714973006E4345 /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0A727B7C1C71491B006E4345 /* Assets.xcassets */,
 				0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */,
 				0A727B811C71491B006E4345 /* Info.plist */,
+				0A727BA31C714973006E4345 /* gradable.xcdatamodeld */,
 			);
 			path = Gradable;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				0A727B781C71491B006E4345 /* ViewController.swift in Sources */,
 				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
+				0A727BA51C714973006E4345 /* gradable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +506,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0A727BA31C714973006E4345 /* gradable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0A727BA41C714973006E4345 /* gradable.xcdatamodel */,
+			);
+			currentVersion = 0A727BA41C714973006E4345 /* gradable.xcdatamodel */;
+			path = gradable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0A727B6A1C71491B006E4345 /* Project object */;
 }
