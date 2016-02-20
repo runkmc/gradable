@@ -99,6 +99,7 @@
 		0A727B741C71491B006E4345 /* Gradable */ = {
 			isa = PBXGroup;
 			children = (
+				0AA631E21C79008800EF12D6 /* Models */,
 				0A727B751C71491B006E4345 /* AppDelegate.swift */,
 				0A727B771C71491B006E4345 /* ViewController.swift */,
 				0A727B791C71491B006E4345 /* Main.storyboard */,
@@ -126,6 +127,13 @@
 				0A727B971C71491B006E4345 /* Info.plist */,
 			);
 			path = GradableUITests;
+			sourceTree = "<group>";
+		};
+		0AA631E21C79008800EF12D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,6 +496,7 @@
 				0A727B9C1C71491B006E4345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A727B9D1C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				0A727B9F1C71491B006E4345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A727BA01C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				0A727BA21C71491B006E4345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
