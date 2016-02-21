@@ -16,6 +16,9 @@
 		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
 		0A727BA51C714973006E4345 /* gradable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A727BA31C714973006E4345 /* gradable.xcdatamodeld */; };
 		0AA631E41C79076100EF12D6 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA631E31C79076100EF12D6 /* Classroom.swift */; };
+		0AACD4FA1C7A7F28009F9E1F /* ClassroomSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */; };
+		6D45B8AAA3484E1D1016BE09 /* Pods_GradableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */; };
+		C34E1A6E62A2C28A58A5D2E9 /* Pods_GradableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,13 @@
 		0A727B971C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A727BA41C714973006E4345 /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
 		0AA631E31C79076100EF12D6 /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
+		0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomSpec.swift; sourceTree = "<group>"; };
+		15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		875B6A430477E2C251142F4C /* Pods-GradableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradableUITests/Pods-GradableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9582B3990764F6FFCF0DB98E /* Pods-GradableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradableUITests/Pods-GradableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3C6E22115B47E96E7E0C47E /* Pods-GradableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D45B8AAA3484E1D1016BE09 /* Pods_GradableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34E1A6E62A2C28A58A5D2E9 /* Pods_GradableUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				0A727B891C71491B006E4345 /* GradableTests */,
 				0A727B941C71491B006E4345 /* GradableUITests */,
 				0A727B731C71491B006E4345 /* Products */,
+				D4EC10EB6F913C210528BAC2 /* Pods */,
+				E749610538E172689E57ED8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +132,7 @@
 			children = (
 				0A727B8A1C71491B006E4345 /* GradableTests.swift */,
 				0A727B8C1C71491B006E4345 /* Info.plist */,
+				0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */,
 			);
 			path = GradableTests;
 			sourceTree = "<group>";
@@ -137,6 +152,26 @@
 				0AA631E31C79076100EF12D6 /* Classroom.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		D4EC10EB6F913C210528BAC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */,
+				F3C6E22115B47E96E7E0C47E /* Pods-GradableTests.release.xcconfig */,
+				875B6A430477E2C251142F4C /* Pods-GradableUITests.debug.xcconfig */,
+				9582B3990764F6FFCF0DB98E /* Pods-GradableUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E749610538E172689E57ED8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */,
+				5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A727B9D1C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableTests" */;
 			buildPhases = (
+				BEE5B12D65ED3D845614708F /* Check Pods Manifest.lock */,
 				0A727B821C71491B006E4345 /* Sources */,
 				0A727B831C71491B006E4345 /* Frameworks */,
 				0A727B841C71491B006E4345 /* Resources */,
+				C7FFB4CEF0E0F2CB3314B169 /* Embed Pods Frameworks */,
+				54B5CDD2913871ECFB4176B7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A727BA01C71491B006E4345 /* Build configuration list for PBXNativeTarget "GradableUITests" */;
 			buildPhases = (
+				9C89B23508FDE1736A2C2DB5 /* Check Pods Manifest.lock */,
 				0A727B8D1C71491B006E4345 /* Sources */,
 				0A727B8E1C71491B006E4345 /* Frameworks */,
 				0A727B8F1C71491B006E4345 /* Resources */,
+				B3663B87F04701FB626DA66F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +305,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54B5CDD2913871ECFB4176B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C89B23508FDE1736A2C2DB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3663B87F04701FB626DA66F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradableUITests/Pods-GradableUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE5B12D65ED3D845614708F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FFB4CEF0E0F2CB3314B169 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A727B6E1C71491B006E4345 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AACD4FA1C7A7F28009F9E1F /* ClassroomSpec.swift in Sources */,
 				0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +554,7 @@
 		};
 		0A727B9E1C71491B006E4345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GradableTests/Info.plist;
@@ -447,6 +567,7 @@
 		};
 		0A727B9F1C71491B006E4345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C6E22115B47E96E7E0C47E /* Pods-GradableTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GradableTests/Info.plist;
@@ -459,6 +580,7 @@
 		};
 		0A727BA11C71491B006E4345 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 875B6A430477E2C251142F4C /* Pods-GradableUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GradableUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -471,6 +593,7 @@
 		};
 		0A727BA21C71491B006E4345 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9582B3990764F6FFCF0DB98E /* Pods-GradableUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GradableUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
