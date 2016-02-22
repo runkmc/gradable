@@ -9,9 +9,14 @@
 import Foundation
 import Quick
 import Nimble
+@testable import Gradable
 
 class ClassroomSpec: QuickSpec {
     override func spec() {
-        
+        describe("a Classroom") {
+            it("has properties") {
+                
+            }
+        }
     }
 }
