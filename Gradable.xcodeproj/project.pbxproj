@@ -115,12 +115,11 @@
 		0A727B741C71491B006E4345 /* Gradable */ = {
 			isa = PBXGroup;
 			children = (
+				0AACD4FC1C7AC11A009F9E1F /* Storyboards */,
 				0AACD4FB1C7AC0E8009F9E1F /* Assets */,
 				0AA631E21C79008800EF12D6 /* Models */,
 				0A727B751C71491B006E4345 /* AppDelegate.swift */,
 				0A727B771C71491B006E4345 /* ViewController.swift */,
-				0A727B791C71491B006E4345 /* Main.storyboard */,
-				0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */,
 				0A727B811C71491B006E4345 /* Info.plist */,
 				0A727BA31C714973006E4345 /* gradable.xcdatamodeld */,
 			);
@@ -160,6 +159,15 @@
 				0A727B7C1C71491B006E4345 /* Assets.xcassets */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		0AACD4FC1C7AC11A009F9E1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0A727B791C71491B006E4345 /* Main.storyboard */,
+				0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 		D4EC10EB6F913C210528BAC2 /* Pods */ = {
