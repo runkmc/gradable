@@ -9,6 +9,6 @@
 import Foundation
 
 final class Classroom {
-    @NSManaged private(set) var title: String
-    @NSManaged private(set) var notes: String
+    @NSManaged public var title: String
+    @NSManaged public var notes: String
 }
