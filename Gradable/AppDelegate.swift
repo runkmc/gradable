@@ -7,15 +7,15 @@
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let context = setupCoreData()
         return true
     }
 
@@ -41,6 +41,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func setupCoreData() -> NSManagedObjectContext {
+        let documents = try! NSFileManager.defaultManager().URLForDirectory(.DocumentDirectory, inDomain: .UserDomainMask, appropriateForURL: nil, create: true)
+        let store = documents.URLByAppendingPathComponent("Gradable.Gradebook")
+        let bundles = [NSBundle.mainBundle()]
+        guard let mom = NSManagedObjectModel.mergedModelFromBundles(bundles) else {
+            fatalError("no managed object model")
+        }
+        let psc = NSPersistentStoreCoordinator(managedObjectModel: mom)
+        try! psc.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: store, options: nil)
+        let context = NSManagedObjectContext(concurrencyType: .MainQueueConcurrencyType)
+        context.persistentStoreCoordinator = psc
+        return context
+    }
 
 }
-
