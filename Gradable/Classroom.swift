@@ -12,4 +12,5 @@ import CoreData
 final class Classroom: NSManagedObject {
     @NSManaged var title: String
     @NSManaged var notes: String
+    @NSManaged var students: NSSet
 }
