@@ -15,8 +15,8 @@ func setupCoreData(storeType:String) -> NSManagedObjectContext {
         fatalError("no managed object model")
     }
     let psc = NSPersistentStoreCoordinator(managedObjectModel: mom)
-    let options: Dictionary<String, Bool> = [NSMigratePersistentStoresAutomaticallyOption: true]
-    
+    let options: Dictionary<String, Bool> = [NSMigratePersistentStoresAutomaticallyOption: true,
+        NSInferMappingModelAutomaticallyOption: true]
     switch storeType {
     case NSSQLiteStoreType:
         let documents = try! NSFileManager.defaultManager().URLForDirectory(.DocumentDirectory, inDomain: .UserDomainMask, appropriateForURL: nil, create: true)
