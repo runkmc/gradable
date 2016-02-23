@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import CoreData
 
-final class Classroom {
-    @NSManaged private(set) var title: String
-    @NSManaged private(set) var notes: String
+final class Classroom: NSManagedObject {
+    @NSManaged var title: String
+    @NSManaged var notes: String
 }
