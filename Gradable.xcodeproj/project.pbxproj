@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0A6609741C7D0BFD009BD9FE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6609731C7D0BFD009BD9FE /* Student.swift */; };
+		0A6609761C7D0F5A009BD9FE /* StudentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */; };
 		0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B751C71491B006E4345 /* AppDelegate.swift */; };
 		0A727B7B1C71491B006E4345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B791C71491B006E4345 /* Main.storyboard */; };
 		0A727B7D1C71491B006E4345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7C1C71491B006E4345 /* Assets.xcassets */; };
 		0A727B801C71491B006E4345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */; };
-		0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B8A1C71491B006E4345 /* GradableTests.swift */; };
 		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
 		0AA631E41C79076100EF12D6 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA631E31C79076100EF12D6 /* Classroom.swift */; };
 		0AACD4FA1C7A7F28009F9E1F /* ClassroomSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */; };
@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 4.xcdatamodel"; sourceTree = "<group>"; };
 		0A6609731C7D0BFD009BD9FE /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentSpec.swift; sourceTree = "<group>"; };
 		0A727B721C71491B006E4345 /* Gradable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B751C71491B006E4345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A727B7A1C71491B006E4345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		0A727B7F1C71491B006E4345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A727B811C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A727B861C71491B006E4345 /* GradableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A727B8A1C71491B006E4345 /* GradableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableTests.swift; sourceTree = "<group>"; };
 		0A727B8C1C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A727B911C71491B006E4345 /* GradableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B951C71491B006E4345 /* GradableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableUITests.swift; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 		0A727B891C71491B006E4345 /* GradableTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A727B8A1C71491B006E4345 /* GradableTests.swift */,
 				0A727B8C1C71491B006E4345 /* Info.plist */,
 				0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */,
+				0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */,
 			);
 			path = GradableTests;
 			sourceTree = "<group>";
@@ -447,7 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AACD4FA1C7A7F28009F9E1F /* ClassroomSpec.swift in Sources */,
-				0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */,
+				0A6609761C7D0F5A009BD9FE /* StudentSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
