@@ -23,7 +23,6 @@ class ClassroomSpec: QuickSpec {
             try! ClassroomSpec.moc.save()
             
             it("has properties") {
-                print(room.notes)
                 expect(room.title) == "MUS1001"
                 expect(room.notes) == "Music 1345, TTh 9 - 9:50"
             }
