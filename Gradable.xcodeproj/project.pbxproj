@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6609741C7D0BFD009BD9FE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6609731C7D0BFD009BD9FE /* Student.swift */; };
 		0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B751C71491B006E4345 /* AppDelegate.swift */; };
 		0A727B7B1C71491B006E4345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B791C71491B006E4345 /* Main.storyboard */; };
 		0A727B7D1C71491B006E4345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7C1C71491B006E4345 /* Assets.xcassets */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 4.xcdatamodel"; sourceTree = "<group>"; };
+		0A6609731C7D0BFD009BD9FE /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		0A727B721C71491B006E4345 /* Gradable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B751C71491B006E4345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A727B7A1C71491B006E4345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -151,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				0AA631E31C79076100EF12D6 /* Classroom.swift */,
+				0A6609731C7D0BFD009BD9FE /* Student.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -433,6 +437,7 @@
 				0AA631E41C79076100EF12D6 /* Classroom.swift in Sources */,
 				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
 				0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */,
+				0A6609741C7D0BFD009BD9FE /* Student.swift in Sources */,
 				0AACD50F1C7BF396009F9E1F /* Gradable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -691,11 +696,12 @@
 		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */,
 				0AACD50C1C7BF396009F9E1F /* gradable 2.xcdatamodel */,
 				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
 				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */;
+			currentVersion = 0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */;
 			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
