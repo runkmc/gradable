@@ -20,11 +20,15 @@ class ClassroomSpec: QuickSpec {
             let room = NSEntityDescription.insertNewObjectForEntityForName("Classroom", inManagedObjectContext: ClassroomSpec.moc) as! Classroom
             room.setValue("MUS1001", forKey: "title")
             room.setValue("Music 1345, TTh 9 - 9:50", forKey: "notes")
-            try! ClassroomSpec.moc.save()
+            let student = NSEntityDescription.insertNewObjectForEntityForName("Student", inManagedObjectContext: ClassroomSpec.moc) as! Student
+            student.setValue("Benjamin", forKey: "firstName")
+            student.setValue("Sisko", forKey: "lastName")
+            room.mutableSetValueForKey("students").addObject(student)
             
             it("has properties") {
                 expect(room.title) == "MUS1001"
                 expect(room.notes) == "Music 1345, TTh 9 - 9:50"
+                expect(room.students.member(student) as? Student) == student
             }
         }
     }
