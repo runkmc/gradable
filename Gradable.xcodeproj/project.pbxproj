@@ -13,10 +13,10 @@
 		0A727B801C71491B006E4345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A727B7E1C71491B006E4345 /* LaunchScreen.storyboard */; };
 		0A727B8B1C71491B006E4345 /* GradableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B8A1C71491B006E4345 /* GradableTests.swift */; };
 		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
-		0A727BA51C714973006E4345 /* gradable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A727BA31C714973006E4345 /* gradable.xcdatamodeld */; };
 		0AA631E41C79076100EF12D6 /* Classroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA631E31C79076100EF12D6 /* Classroom.swift */; };
 		0AACD4FA1C7A7F28009F9E1F /* ClassroomSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */; };
 		0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD5021C7BD21C009F9E1F /* setupCoreData.swift */; };
+		0AACD50F1C7BF396009F9E1F /* Gradable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */; };
 		6D45B8AAA3484E1D1016BE09 /* Pods_GradableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */; };
 		C34E1A6E62A2C28A58A5D2E9 /* Pods_GradableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */; };
 /* End PBXBuildFile section */
@@ -51,10 +51,12 @@
 		0A727B911C71491B006E4345 /* GradableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B951C71491B006E4345 /* GradableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableUITests.swift; sourceTree = "<group>"; };
 		0A727B971C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A727BA41C714973006E4345 /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
 		0AA631E31C79076100EF12D6 /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
 		0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomSpec.swift; sourceTree = "<group>"; };
 		0AACD5021C7BD21C009F9E1F /* setupCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setupCoreData.swift; sourceTree = "<group>"; };
+		0AACD50C1C7BF396009F9E1F /* gradable 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 2.xcdatamodel"; sourceTree = "<group>"; };
+		0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 3.xcdatamodel"; sourceTree = "<group>"; };
+		0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
 		15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,7 +123,7 @@
 				0AACD4FC1C7AC11A009F9E1F /* Storyboards */,
 				0AACD4FB1C7AC0E8009F9E1F /* Assets */,
 				0AA631E21C79008800EF12D6 /* Models */,
-				0A727BA31C714973006E4345 /* gradable.xcdatamodeld */,
+				0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */,
 			);
 			path = Gradable;
 			sourceTree = "<group>";
@@ -431,7 +433,7 @@
 				0AA631E41C79076100EF12D6 /* Classroom.swift in Sources */,
 				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
 				0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */,
-				0A727BA51C714973006E4345 /* gradable.xcdatamodeld in Sources */,
+				0AACD50F1C7BF396009F9E1F /* Gradable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,13 +688,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0A727BA31C714973006E4345 /* gradable.xcdatamodeld */ = {
+		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0A727BA41C714973006E4345 /* gradable.xcdatamodel */,
+				0AACD50C1C7BF396009F9E1F /* gradable 2.xcdatamodel */,
+				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
+				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0A727BA41C714973006E4345 /* gradable.xcdatamodel */;
-			path = gradable.xcdatamodeld;
+			currentVersion = 0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */;
+			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
