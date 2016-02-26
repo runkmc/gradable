@@ -59,6 +59,7 @@
 		0A727B911C71491B006E4345 /* GradableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A727B951C71491B006E4345 /* GradableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradableUITests.swift; sourceTree = "<group>"; };
 		0A727B971C71491B006E4345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 6.xcdatamodel"; sourceTree = "<group>"; };
 		0AA631E31C79076100EF12D6 /* Classroom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classroom.swift; sourceTree = "<group>"; };
 		0AACD4F91C7A7F28009F9E1F /* ClassroomSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassroomSpec.swift; sourceTree = "<group>"; };
 		0AACD5021C7BD21C009F9E1F /* setupCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setupCoreData.swift; sourceTree = "<group>"; };
@@ -705,13 +706,14 @@
 		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */,
 				0A52FBD71C7E529C009BE3DF /* gradable 5.xcdatamodel */,
 				0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */,
 				0AACD50C1C7BF396009F9E1F /* gradable 2.xcdatamodel */,
 				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
 				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0A52FBD71C7E529C009BE3DF /* gradable 5.xcdatamodel */;
+			currentVersion = 0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */;
 			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

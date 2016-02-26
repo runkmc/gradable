@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="Assignment" syncable="YES">
+        <attribute name="assignedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="assignmentType" maxCount="1" deletionRule="Nullify" destinationEntity="AssignmentType" inverseName="assignments" inverseEntity="AssignmentType" syncable="YES"/>
+    </entity>
+    <entity name="AssignmentType" representedClassName=".AssignmentType" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="percentage" attributeType="Integer 16" minValueString="1" maxValueString="100" syncable="YES"/>
+        <relationship name="assignments" toMany="YES" deletionRule="Nullify" destinationEntity="Assignment" inverseName="assignmentType" inverseEntity="Assignment" syncable="YES"/>
+        <relationship name="classroom" maxCount="1" deletionRule="Nullify" destinationEntity="Classroom" inverseName="assignmentTypes" inverseEntity="Classroom" syncable="YES"/>
+    </entity>
+    <entity name="Classroom" representedClassName=".Classroom" syncable="YES">
+        <attribute name="notes" attributeType="String" defaultValueString="nothing" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="assignmentTypes" toMany="YES" deletionRule="Cascade" destinationEntity="AssignmentType" inverseName="classroom" inverseEntity="AssignmentType" syncable="YES"/>
+        <relationship name="students" toMany="YES" deletionRule="Cascade" destinationEntity="Student" inverseName="classroom" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="firstName" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" attributeType="String" syncable="YES"/>
+        <attribute name="studentID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="classroom" maxCount="1" deletionRule="Nullify" destinationEntity="Classroom" inverseName="students" inverseEntity="Classroom" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AssignmentType" positionX="-1782" positionY="-2583" width="128" height="103"/>
+        <element name="Classroom" positionX="-1962" positionY="-2583" width="128" height="103"/>
+        <element name="Student" positionX="-1944" positionY="-2740" width="128" height="103"/>
+        <element name="Assignment" positionX="-1586" positionY="-2547" width="128" height="88"/>
+    </elements>
+</model>
