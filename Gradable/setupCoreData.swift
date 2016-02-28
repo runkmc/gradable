@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 func setupCoreData(storeType:String) -> NSManagedObjectContext {
-    let bundles = [NSBundle(forClass: Classroom.self)]
+    let bundles = [NSBundle(forClass: Gradebook.self)]
     guard let mom = NSManagedObjectModel.mergedModelFromBundles(bundles) else {
         fatalError("no managed object model")
     }

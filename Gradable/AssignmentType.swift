@@ -12,5 +12,5 @@ import CoreData
 class AssignmentType: NSManagedObject {
     @NSManaged var name: String
     @NSManaged var percentage: NSNumber
-    @NSManaged var classroom: Classroom
+    @NSManaged var gradebook: Gradebook
 }

@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-final class Classroom: NSManagedObject {
+final class Gradebook: NSManagedObject {
     @NSManaged var title: String
     @NSManaged var notes: String
     @NSManaged var students: NSSet

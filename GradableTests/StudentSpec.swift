@@ -17,18 +17,18 @@ class StudentSpec: QuickSpec {
     
     override func spec() {
         describe("a Student") {
-            let room = NSEntityDescription.insertNewObjectForEntityForName("Classroom", inManagedObjectContext: StudentSpec.moc) as! Classroom
+            let room = NSEntityDescription.insertNewObjectForEntityForName("Gradebook", inManagedObjectContext: StudentSpec.moc) as! Gradebook
             room.setValue("MUS1001", forKey: "title")
             room.setValue("Music 1345, TTh 9 - 9:50", forKey: "notes")
             let student = NSEntityDescription.insertNewObjectForEntityForName("Student", inManagedObjectContext: StudentSpec.moc) as! Student
             student.setValue("Benjamin", forKey: "firstName")
             student.setValue("Sisko", forKey: "lastName")
-            student.setValue(room, forKey: "classroom")
+            student.setValue(room, forKey: "gradebook")
             
             it("has properties") {
                 expect(student.firstName) == "Benjamin"
                 expect(student.lastName) == "Sisko"
-                expect(student.classroom) == room
+                expect(student.gradebook) == room
             }
         }
     }
