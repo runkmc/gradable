@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A52FBD91C7E5486009BE3DF /* AssignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */; };
 		0A52FBDC1C7E54F0009BE3DF /* AssignmentTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */; };
+		0A57AAF91C8270C3004D41E3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57AAF81C8270C3004D41E3 /* Assignment.swift */; };
 		0A6609741C7D0BFD009BD9FE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6609731C7D0BFD009BD9FE /* Student.swift */; };
 		0A6609761C7D0F5A009BD9FE /* StudentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */; };
 		0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B751C71491B006E4345 /* AppDelegate.swift */; };
@@ -46,6 +47,8 @@
 		0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentType.swift; sourceTree = "<group>"; };
 		0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTypeSpec.swift; sourceTree = "<group>"; };
 		0A57AAF61C826E7D004D41E3 /* gradable 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 7.xcdatamodel"; sourceTree = "<group>"; };
+		0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 8.xcdatamodel"; sourceTree = "<group>"; };
+		0A57AAF81C8270C3004D41E3 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 		0A6609721C7CF6E9009BD9FE /* gradable 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 4.xcdatamodel"; sourceTree = "<group>"; };
 		0A6609731C7D0BFD009BD9FE /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentSpec.swift; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 				0AA631E31C79076100EF12D6 /* Gradebook.swift */,
 				0A6609731C7D0BFD009BD9FE /* Student.swift */,
 				0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */,
+				0A57AAF81C8270C3004D41E3 /* Assignment.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -444,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A52FBD91C7E5486009BE3DF /* AssignmentType.swift in Sources */,
+				0A57AAF91C8270C3004D41E3 /* Assignment.swift in Sources */,
 				0AA631E41C79076100EF12D6 /* Gradebook.swift in Sources */,
 				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
 				0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */,
@@ -707,6 +712,7 @@
 		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */,
 				0A57AAF61C826E7D004D41E3 /* gradable 7.xcdatamodel */,
 				0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */,
 				0A52FBD71C7E529C009BE3DF /* gradable 5.xcdatamodel */,
@@ -715,7 +721,7 @@
 				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
 				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0A57AAF61C826E7D004D41E3 /* gradable 7.xcdatamodel */;
+			currentVersion = 0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */;
 			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
