@@ -12,15 +12,15 @@ import Quick
 import Nimble
 @testable import Gradable
 
-class ClassroomSpec: QuickSpec {
+class GradebookSpec: QuickSpec {
     static let moc = setupCoreData(NSInMemoryStoreType)
     
     override func spec() {
-        describe("a Classroom") {
-            let room = NSEntityDescription.insertNewObjectForEntityForName("Classroom", inManagedObjectContext: ClassroomSpec.moc) as! Classroom
+        describe("a Gradebook") {
+            let room = NSEntityDescription.insertNewObjectForEntityForName("Gradebook", inManagedObjectContext: GradebookSpec.moc) as! Gradebook
             room.setValue("MUS1001", forKey: "title")
             room.setValue("Music 1345, TTh 9 - 9:50", forKey: "notes")
-            let student = NSEntityDescription.insertNewObjectForEntityForName("Student", inManagedObjectContext: ClassroomSpec.moc) as! Student
+            let student = NSEntityDescription.insertNewObjectForEntityForName("Student", inManagedObjectContext: GradebookSpec.moc) as! Student
             student.setValue("Benjamin", forKey: "firstName")
             student.setValue("Sisko", forKey: "lastName")
             room.mutableSetValueForKey("students").addObject(student)

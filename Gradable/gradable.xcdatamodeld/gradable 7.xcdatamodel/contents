@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
-    <entity name="Assignment" syncable="YES">
+    <entity name="Assignment" representedClassName="" syncable="YES">
         <attribute name="assignedDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="dueDate" optional="YES" attributeType="Date" syncable="YES"/>
         <relationship name="assignmentType" maxCount="1" deletionRule="Nullify" destinationEntity="AssignmentType" inverseName="assignments" inverseEntity="AssignmentType" syncable="YES"/>
@@ -24,7 +24,7 @@
         <relationship name="gradebook" maxCount="1" deletionRule="Nullify" destinationEntity="Gradebook" inverseName="students" inverseEntity="Gradebook" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Assignment" positionX="-1586" positionY="-2547" width="128" height="88"/>
+        <element name="Assignment" positionX="-1586" positionY="-2547" width="128" height="90"/>
         <element name="AssignmentType" positionX="-1782" positionY="-2583" width="128" height="105"/>
         <element name="Gradebook" positionX="-1962" positionY="-2583" width="128" height="105"/>
         <element name="Student" positionX="-1944" positionY="-2740" width="128" height="105"/>
