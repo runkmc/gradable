@@ -13,4 +13,5 @@ final class Gradebook: NSManagedObject {
     @NSManaged var title: String
     @NSManaged var notes: String
     @NSManaged var students: NSSet
+    @NSManaged var assignmentTypes: NSSet
 }
