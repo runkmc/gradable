@@ -21,6 +21,7 @@
 		0AACD4FA1C7A7F28009F9E1F /* GradebookSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD4F91C7A7F28009F9E1F /* GradebookSpec.swift */; };
 		0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD5021C7BD21C009F9E1F /* setupCoreData.swift */; };
 		0AACD50F1C7BF396009F9E1F /* Gradable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */; };
+		0AF8688F1C85454F0061880F /* CompletedAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF8688E1C85454F0061880F /* CompletedAssignment.swift */; };
 		6D45B8AAA3484E1D1016BE09 /* Pods_GradableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */; };
 		C34E1A6E62A2C28A58A5D2E9 /* Pods_GradableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 3.xcdatamodel"; sourceTree = "<group>"; };
 		0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
 		0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 9.xcdatamodel"; sourceTree = "<group>"; };
+		0AF8688E1C85454F0061880F /* CompletedAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedAssignment.swift; sourceTree = "<group>"; };
 		15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				0A6609731C7D0BFD009BD9FE /* Student.swift */,
 				0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */,
 				0A57AAF81C8270C3004D41E3 /* Assignment.swift */,
+				0AF8688E1C85454F0061880F /* CompletedAssignment.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 			files = (
 				0A52FBD91C7E5486009BE3DF /* AssignmentType.swift in Sources */,
 				0A57AAF91C8270C3004D41E3 /* Assignment.swift in Sources */,
+				0AF8688F1C85454F0061880F /* CompletedAssignment.swift in Sources */,
 				0AA631E41C79076100EF12D6 /* Gradebook.swift in Sources */,
 				0A727B761C71491B006E4345 /* AppDelegate.swift in Sources */,
 				0AACD5031C7BD21C009F9E1F /* setupCoreData.swift in Sources */,
