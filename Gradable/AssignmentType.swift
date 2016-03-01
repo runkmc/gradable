@@ -13,4 +13,5 @@ class AssignmentType: NSManagedObject {
     @NSManaged var name: String
     @NSManaged var percentage: NSNumber
     @NSManaged var gradebook: Gradebook
+    @NSManaged var assignments: NSSet
 }
