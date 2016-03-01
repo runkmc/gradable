@@ -5,7 +5,7 @@
         <attribute name="dueDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="name" attributeType="String" syncable="YES"/>
         <relationship name="assignmentType" maxCount="1" deletionRule="Nullify" destinationEntity="AssignmentType" inverseName="assignments" inverseEntity="AssignmentType" syncable="YES"/>
-        <relationship name="completedassignments" toMany="YES" deletionRule="Nullify" destinationEntity="CompletedAssignment" inverseName="assignment" inverseEntity="CompletedAssignment" syncable="YES"/>
+        <relationship name="completedAssignments" toMany="YES" deletionRule="Nullify" destinationEntity="CompletedAssignment" inverseName="assignment" inverseEntity="CompletedAssignment" syncable="YES"/>
     </entity>
     <entity name="AssignmentType" representedClassName=".AssignmentType" syncable="YES">
         <attribute name="name" attributeType="String" syncable="YES"/>
@@ -14,7 +14,7 @@
         <relationship name="gradebook" maxCount="1" deletionRule="Nullify" destinationEntity="Gradebook" inverseName="assignmentTypes" inverseEntity="Gradebook" syncable="YES"/>
     </entity>
     <entity name="CompletedAssignment" representedClassName=".CompletedAssignment" syncable="YES">
-        <relationship name="assignment" maxCount="1" deletionRule="Nullify" destinationEntity="Assignment" inverseName="completedassignments" inverseEntity="Assignment" syncable="YES"/>
+        <relationship name="assignment" maxCount="1" deletionRule="Nullify" destinationEntity="Assignment" inverseName="completedAssignments" inverseEntity="Assignment" syncable="YES"/>
         <relationship name="student" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="completedAssignments" inverseEntity="Student" syncable="YES"/>
     </entity>
     <entity name="Gradebook" representedClassName=".Gradebook" syncable="YES">
