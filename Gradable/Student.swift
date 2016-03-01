@@ -12,6 +12,7 @@ import CoreData
 final class Student: NSManagedObject {
     @NSManaged var firstName: String
     @NSManaged var lastName: String
+    @NSManaged var studentID: String?
     @NSManaged var gradebook: Gradebook
     @NSManaged var completedAssignments: NSSet
 }
