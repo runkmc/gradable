@@ -70,6 +70,7 @@
 		0AACD50C1C7BF396009F9E1F /* gradable 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 2.xcdatamodel"; sourceTree = "<group>"; };
 		0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 3.xcdatamodel"; sourceTree = "<group>"; };
 		0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gradable.xcdatamodel; sourceTree = "<group>"; };
+		0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 9.xcdatamodel"; sourceTree = "<group>"; };
 		15B24896C6F44912CABB1676 /* Pods_GradableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5902866937FDD18C958D3D94 /* Pods_GradableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7684E906C3FF89C393D3DD6B /* Pods-GradableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradableTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GradableTests/Pods-GradableTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -712,6 +713,7 @@
 		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */,
 				0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */,
 				0A57AAF61C826E7D004D41E3 /* gradable 7.xcdatamodel */,
 				0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */,
@@ -721,7 +723,7 @@
 				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
 				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */;
+			currentVersion = 0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */;
 			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
