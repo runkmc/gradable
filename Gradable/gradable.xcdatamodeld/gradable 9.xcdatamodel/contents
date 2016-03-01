@@ -27,7 +27,7 @@
         <attribute name="firstName" attributeType="String" syncable="YES"/>
         <attribute name="lastName" attributeType="String" syncable="YES"/>
         <attribute name="studentID" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="completedAssignments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CompletedAssignment" inverseName="student" inverseEntity="CompletedAssignment" syncable="YES"/>
+        <relationship name="completedAssignments" toMany="YES" deletionRule="Nullify" destinationEntity="CompletedAssignment" inverseName="student" inverseEntity="CompletedAssignment" syncable="YES"/>
         <relationship name="gradebook" maxCount="1" deletionRule="Nullify" destinationEntity="Gradebook" inverseName="students" inverseEntity="Gradebook" syncable="YES"/>
     </entity>
     <elements>
