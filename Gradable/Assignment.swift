@@ -13,4 +13,6 @@ final class Assignment: NSManagedObject {
     @NSManaged var assignedDate: NSDate?
     @NSManaged var dueDate: NSDate?
     @NSManaged var name: String
+    @NSManaged var assignmentType: AssignmentType
+    @NSManaged var completedAssignments: CompletedAssignments
 }
