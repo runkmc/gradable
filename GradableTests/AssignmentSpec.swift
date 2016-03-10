@@ -29,6 +29,7 @@ class AssignmentSpec: QuickSpec {
             it("has properties") {
                 expect(aType.name) == "Quiz"
                 expect(aType.percentage) == 20
+                expect(aType.gradebook) == room
             }
             
         }
