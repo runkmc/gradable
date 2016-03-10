@@ -17,19 +17,19 @@ class AssignmentSpec: QuickSpec {
     
     override func spec() {
         describe("An assignment type") {
-            let room = NSEntityDescription.insertNewObjectForEntityForName("Gradebook", inManagedObjectContext: AssignmentSpec.moc) as! Gradebook
-            room.setValue("MUS1001", forKey: "title")
-            room.setValue("Music 1345, TTh 9 - 9:50", forKey: "notes")
+            let book = NSEntityDescription.insertNewObjectForEntityForName("Gradebook", inManagedObjectContext: AssignmentSpec.moc) as! Gradebook
+            book.setValue("MUS1001", forKey: "title")
+            book.setValue("Music 1345, TTh 9 - 9:50", forKey: "notes")
             let aType = NSEntityDescription.insertNewObjectForEntityForName("AssignmentType", inManagedObjectContext: AssignmentSpec.moc) as! AssignmentType
             aType.name = "Quiz"
             aType.percentage = 20
-            aType.gradebook = room
+            aType.gradebook = book
             try! AssignmentTypeSpec.moc.save()
             
             it("has properties") {
                 expect(aType.name) == "Quiz"
                 expect(aType.percentage) == 20
-                expect(aType.gradebook) == room
+                expect(aType.gradebook) == book
             }
             
         }
