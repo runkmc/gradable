@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		0A03B1231C935377006937A4 /* CompletedAssignmentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedAssignmentSpec.swift; sourceTree = "<group>"; };
+		0A03B1251C935B5D006937A4 /* gradable 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 10.xcdatamodel"; sourceTree = "<group>"; };
 		0A52FBD71C7E529C009BE3DF /* gradable 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 5.xcdatamodel"; sourceTree = "<group>"; };
 		0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentType.swift; sourceTree = "<group>"; };
 		0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTypeSpec.swift; sourceTree = "<group>"; };
@@ -725,6 +726,7 @@
 		0AACD50B1C7BF396009F9E1F /* Gradable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0A03B1251C935B5D006937A4 /* gradable 10.xcdatamodel */,
 				0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */,
 				0A57AAF71C827080004D41E3 /* gradable 8.xcdatamodel */,
 				0A57AAF61C826E7D004D41E3 /* gradable 7.xcdatamodel */,
@@ -735,7 +737,7 @@
 				0AACD50D1C7BF396009F9E1F /* gradable 3.xcdatamodel */,
 				0AACD50E1C7BF396009F9E1F /* gradable.xcdatamodel */,
 			);
-			currentVersion = 0AF8688D1C8541AA0061880F /* gradable 9.xcdatamodel */;
+			currentVersion = 0A03B1251C935B5D006937A4 /* gradable 10.xcdatamodel */;
 			path = Gradable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
