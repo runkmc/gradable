@@ -24,7 +24,7 @@ class AssignmentSpec: QuickSpec {
             aType.name = "Quiz"
             aType.percentage = 20
             aType.gradebook = book
-            try! AssignmentTypeSpec.moc.save()
+            try! AssignmentSpec.moc.save()
             
             it("has properties") {
                 expect(aType.name) == "Quiz"
