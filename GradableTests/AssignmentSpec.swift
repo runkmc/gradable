@@ -24,12 +24,18 @@ class AssignmentSpec: QuickSpec {
             aType.name = "Quiz"
             aType.percentage = 20
             aType.gradebook = book
-            try! AssignmentSpec.moc.save()
+            let rightNow = NSDate()
+            let assignment = NSEntityDescription.insertNewObjectForEntityForName("Assignment", inManagedObjectContext: AssignmentSpec.moc) as! Assignment
+            assignment.assignedDate = rightNow
+            assignment.dueDate = rightNow
+            assignment.name = "First Quiz"
+            assignment.assignmentType = aType
             
             it("has properties") {
-                expect(aType.name) == "Quiz"
-                expect(aType.percentage) == 20
-                expect(aType.gradebook) == book
+                expect(assignment.assignedDate!) == rightNow
+                expect(assignment.dueDate!) == rightNow
+                expect(assignment.name) == "First Quiz"
+                expect(assignment.assignmentType) == aType
             }
             
         }
