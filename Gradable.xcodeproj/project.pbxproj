@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A03B1241C935377006937A4 /* CompletedAssignmentSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B1231C935377006937A4 /* CompletedAssignmentSpec.swift */; };
 		0A52FBD91C7E5486009BE3DF /* AssignmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */; };
 		0A52FBDC1C7E54F0009BE3DF /* AssignmentTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */; };
 		0A57AAF91C8270C3004D41E3 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57AAF81C8270C3004D41E3 /* Assignment.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A03B1231C935377006937A4 /* CompletedAssignmentSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedAssignmentSpec.swift; sourceTree = "<group>"; };
 		0A52FBD71C7E529C009BE3DF /* gradable 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 5.xcdatamodel"; sourceTree = "<group>"; };
 		0A52FBD81C7E5486009BE3DF /* AssignmentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentType.swift; sourceTree = "<group>"; };
 		0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTypeSpec.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				0A6609751C7D0F5A009BD9FE /* StudentSpec.swift */,
 				0A52FBDB1C7E54F0009BE3DF /* AssignmentTypeSpec.swift */,
 				0AEB82701C92147B001E58D4 /* AssignmentSpec.swift */,
+				0A03B1231C935377006937A4 /* CompletedAssignmentSpec.swift */,
 			);
 			path = GradableTests;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				0A52FBDC1C7E54F0009BE3DF /* AssignmentTypeSpec.swift in Sources */,
 				0AACD4FA1C7A7F28009F9E1F /* GradebookSpec.swift in Sources */,
 				0A6609761C7D0F5A009BD9FE /* StudentSpec.swift in Sources */,
+				0A03B1241C935377006937A4 /* CompletedAssignmentSpec.swift in Sources */,
 				0AEB82711C92147B001E58D4 /* AssignmentSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
