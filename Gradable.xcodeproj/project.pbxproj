@@ -152,6 +152,7 @@
 		0A727B891C71491B006E4345 /* GradableTests */ = {
 			isa = PBXGroup;
 			children = (
+				0AA4B4411C9B4DEF002BBE74 /* ViewModels */,
 				0AA4B4401C9B4D99002BBE74 /* Models */,
 				0A727B8C1C71491B006E4345 /* Info.plist */,
 			);
@@ -177,6 +178,13 @@
 				0A03B1231C935377006937A4 /* CompletedAssignmentSpec.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		0AA4B4411C9B4DEF002BBE74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
 			sourceTree = "<group>";
 		};
 		0AA631E21C79008800EF12D6 /* Models */ = {
