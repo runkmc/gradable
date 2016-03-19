@@ -20,6 +20,7 @@
 		0A727B961C71491B006E4345 /* GradableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A727B951C71491B006E4345 /* GradableUITests.swift */; };
 		0A9F54221C9DD2B50087CF0D /* ViewModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F54211C9DD2B50087CF0D /* ViewModelData.swift */; };
 		0A9F54251C9DE9480087CF0D /* GradebookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F54241C9DE9480087CF0D /* GradebookViewModel.swift */; };
+		0A9F54271C9E1E660087CF0D /* StudentViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F54261C9E1E660087CF0D /* StudentViewModelSpec.swift */; };
 		0AA4B4431C9B4E34002BBE74 /* GradebookViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA4B4421C9B4E34002BBE74 /* GradebookViewModelSpec.swift */; };
 		0AA631E41C79076100EF12D6 /* Gradebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA631E31C79076100EF12D6 /* Gradebook.swift */; };
 		0AACD4FA1C7A7F28009F9E1F /* GradebookSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACD4F91C7A7F28009F9E1F /* GradebookSpec.swift */; };
@@ -74,6 +75,7 @@
 		0A81B5CF1C80F5DD0093245C /* gradable 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "gradable 6.xcdatamodel"; sourceTree = "<group>"; };
 		0A9F54211C9DD2B50087CF0D /* ViewModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelData.swift; sourceTree = "<group>"; };
 		0A9F54241C9DE9480087CF0D /* GradebookViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradebookViewModel.swift; sourceTree = "<group>"; };
+		0A9F54261C9E1E660087CF0D /* StudentViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewModelSpec.swift; sourceTree = "<group>"; };
 		0AA4B4421C9B4E34002BBE74 /* GradebookViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradebookViewModelSpec.swift; sourceTree = "<group>"; };
 		0AA631E31C79076100EF12D6 /* Gradebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradebook.swift; sourceTree = "<group>"; };
 		0AACD4F91C7A7F28009F9E1F /* GradebookSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradebookSpec.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				0AA4B4421C9B4E34002BBE74 /* GradebookViewModelSpec.swift */,
+				0A9F54261C9E1E660087CF0D /* StudentViewModelSpec.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				0A52FBDC1C7E54F0009BE3DF /* AssignmentTypeSpec.swift in Sources */,
 				0AACD4FA1C7A7F28009F9E1F /* GradebookSpec.swift in Sources */,
 				0A6609761C7D0F5A009BD9FE /* StudentSpec.swift in Sources */,
+				0A9F54271C9E1E660087CF0D /* StudentViewModelSpec.swift in Sources */,
 				0A9F54221C9DD2B50087CF0D /* ViewModelData.swift in Sources */,
 				0A03B1241C935377006937A4 /* CompletedAssignmentSpec.swift in Sources */,
 				0AA4B4431C9B4E34002BBE74 /* GradebookViewModelSpec.swift in Sources */,
