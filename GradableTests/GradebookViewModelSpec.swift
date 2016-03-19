@@ -13,4 +13,19 @@ import Nimble
 @testable import Gradable
 
 class GradebookViewModelSpec: QuickSpec {
+    static let moc = setupCoreData(NSInMemoryStoreType)
+    
+    override func spec() {
+        describe("a Gradebook") {
+            let objects = setupViewModelTestData(GradebookViewModelSpec.moc)
+            let book = GradebookViewModel(gradebook: objects["gradebook"] as! Gradebook)
+            
+            it("has properties") {
+                expect(book.title) == "MUS1001"
+                expect(book.notes) == "Music 1345, TTh 9 - 9:50"
+            }
+        }
+        
+    }
+    
 }

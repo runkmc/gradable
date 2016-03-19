@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import CoreData
+
+class GradebookViewModel {
+    let title: String
+    let notes: String
+    
+    init(gradebook:Gradebook) {
+        self.title = gradebook.title
+        self.notes = gradebook.notes
+    }
+}
