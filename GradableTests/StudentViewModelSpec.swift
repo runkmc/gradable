@@ -20,6 +20,12 @@ class StudentViewModelSpec: QuickSpec {
             let objects = setupViewModelTestData(StudentViewModelSpec.moc)
             let student = StudentViewModel(student:objects["student"] as! Student)
             
+            it("has properties") {
+                expect(student.firstName) == "Benjamin"
+                expect(student.lastName) == "Sisko"
+                expect(student.compositeName) == "Sisko, Benjamin"
+                expect(student.studentID!) == "DS9"
+            }
         }
     }
 }
