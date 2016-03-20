@@ -18,6 +18,7 @@ func setupViewModelTestData(moc:NSManagedObjectContext) -> [String:NSManagedObje
     let student = NSEntityDescription.insertNewObjectForEntityForName("Student", inManagedObjectContext: moc) as! Student
     student.setValue("Benjamin", forKey: "firstName")
     student.setValue("Sisko", forKey: "lastName")
+    student.setValue("DS9", forKey:"studentID")
     student.setValue(book, forKey: "gradebook")
     
     let aType = NSEntityDescription.insertNewObjectForEntityForName("AssignmentType", inManagedObjectContext: moc) as! AssignmentType
